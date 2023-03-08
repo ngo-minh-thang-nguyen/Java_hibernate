@@ -14,7 +14,7 @@ In the tab Deployment, do not forget to use + button to add the war that will be
 ![image](https://user-images.githubusercontent.com/12558275/223874824-5bc10c82-7838-4534-937d-3096be4211ce.png)
 
 ###### Database path configuration
-For the database, you need to change the variable PATH_DB in the class UploadServlet, as in the image below :
+For the database, you need to change the variable PATH_DB in the class UploadServlet.java, as illustrated in the image below :
 
 ![image](https://user-images.githubusercontent.com/12558275/223875743-a34f7cc8-95aa-4cc4-9cc2-e948f594bb89.png)
 
@@ -23,10 +23,10 @@ Once finishing all previous steps, you can execute the following cmd, which gene
 ```shell
 mvn clean install
 ```
-A war file (helloworld.war) will be used inside of your "{pathToYourProject}/target" folder 
+As a result, a war file (helloworld.war) will be generated inside of your "{pathToYourProject}/target" folder 
 
 ###### Deploy server Wildfly and test
-If you use IDE IntelliJ, just click on the button as shown in the image to start your server
+If you use IDE IntelliJ, just click on one of the green buttons as shown in the image to start your server
 ![image](https://user-images.githubusercontent.com/12558275/223875256-e4e7268b-d680-4d19-93b5-372c5ba55958.png)
 
 By clicking the following URL : 
@@ -39,5 +39,5 @@ You should see a page that looks like this
 
 You are invited to upload your millenium json file and empire json file
 
-Then, you click on the button "Compute odd", that will give you the result of odd, as follows 
+Then, you can click on the button "Compute odd", that will give you the result of odd, as follows 
 ![image](https://user-images.githubusercontent.com/12558275/223876299-474caf97-616c-4531-bbc4-6793aff14756.png)
