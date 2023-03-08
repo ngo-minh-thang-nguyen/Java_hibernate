@@ -1,10 +1,7 @@
 HelloWorld Servlet example
 =====================================
-Example taken from: http://www.mastertheboss.com/javaee/servlet-30/servlet-hello-world-on-wildfly
 
-This example demonstrates the usage of a Servlet in a Jakarta EE 8 Environment.
-
-###### Download Wildfly 22
+###### Download and configure Wildfly 22
 Download Wildfly 22, and configure as follows: 
 URL : http://localhost:8080/helloworld/
 JRE : Java SDK 11
